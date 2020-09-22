@@ -363,8 +363,5 @@
       <child link="${prefix}base"/>
     </joint>
 
-    <!-- Frame coincident with all-zeros TCP on UR controller -->
-    <link name="${prefix}tool0"/>
-
   </xacro:macro>
 </robot>
