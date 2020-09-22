@@ -6,6 +6,8 @@ Panels:
       Expanded:
         - /MotionPlanning1
         - /MotionPlanning1/Scene Robot1
+        - /MotionPlanning1/Scene Robot1/Links1
+        - /MotionPlanning1/Scene Robot1/Links1/ee_link1
       Splitter Ratio: 0.5
     Tree Height: 286
   - Class: rviz/Selection
@@ -52,7 +54,7 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: true
-    - Acceleration_Scaling_Factor: 0.1
+    - Acceleration_Scaling_Factor: 0.5
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
       Move Group Namespace: ""
@@ -195,7 +197,7 @@ Visualization Manager:
           ee_link:
             Alpha: 1
             Show Axes: false
-            Show Trail: false
+            Show Trail: true
             Value: true
           forearm_link:
             Alpha: 1
@@ -239,7 +241,7 @@ Visualization Manager:
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
-      Velocity_Scaling_Factor: 0.1
+      Velocity_Scaling_Factor: 0.5
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -268,25 +270,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.1331539154052734
+      Distance: 0.4487474262714386
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.18345408141613007
-        Y: -0.0741012692451477
-        Z: 0.4145209789276123
+        X: -0.060383912175893784
+        Y: 0.4044852554798126
+        Z: 0.17092247307300568
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3903980553150177
+      Pitch: 0.775397539138794
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 6.198568344116211
+      Yaw: 1.4903788566589355
     Saved: ~
 Window Geometry:
   Displays:

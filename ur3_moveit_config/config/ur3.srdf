@@ -10,7 +10,7 @@
     <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="manipulator">
-        <chain base_link="base_link" tip_link="ee_link" />
+        <chain base_link="base_link" tip_link="tool0" />
     </group>
     <group name="endeffector">
         <link name="ee_link" />
@@ -33,12 +33,12 @@
         <joint name="wrist_3_joint" value="0" />
     </group_state>
         <group_state name="work" group="manipulator">
-        <joint name="elbow_joint" value="1.65859" />
-        <joint name="shoulder_lift_joint" value="-1.02053" />
-        <joint name="shoulder_pan_joint" value="1.28738" />
-        <joint name="wrist_1_joint" value="-2.20911" />
-        <joint name="wrist_2_joint" value="-1.56796" />
-        <joint name="wrist_3_joint" value="2.85745" />
+        <joint name="elbow_joint" value="1.53667" />
+        <joint name="shoulder_lift_joint" value="-1.13879" />
+        <joint name="shoulder_pan_joint" value="1.2871" />
+        <joint name="wrist_1_joint" value="-1.96864" />
+        <joint name="wrist_2_joint" value="-1.56733" />
+        <joint name="wrist_3_joint" value="1.28676" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="moveit_ee" parent_link="ee_link" group="endeffector" />

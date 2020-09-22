@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+<!-- ur3 urdf file -->
+<xacro:include filename="$(find ur_description)/urdf/ur3.urdf.xacro"/>
+
+</robot>
