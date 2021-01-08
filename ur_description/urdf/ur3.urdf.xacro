@@ -349,7 +349,7 @@
 
     <!-- Defines the TCP position -->
     <joint name="${prefix}wrist_3_passive_joint" type="fixed">
-      <origin xyz="-0.001 0.046 0.109" rpy="0.0 ${-pi/2.0} ${pi/2.0}"/>
+      <origin xyz="0.00047 0.00076 0.11311" rpy="0.0 ${-pi/2.0} ${pi/2.0}"/>
       <parent link="${prefix}wrist_3_link"/>
       <child link="${prefix}tool0"/>
     </joint>
